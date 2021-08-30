@@ -502,3 +502,46 @@ nav ul li input[type="button"] {
   background: hsl(214, 10%, 87%);
   margin: 15px auto;
 }
+
+.form4{
+  position: absolute;
+  width: 397px;
+  height: 310px;
+  background: #ffff;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  padding: 10px;
+}
+.form4 input{
+  height: 55px;
+  width: 360px;
+  border: 1px solid hsl(216,8%,88%);
+  margin-top: 10px;
+  border-radius: 7px;
+  padding-left: 20px;
+  margin-left: 10px;
+  outline: none;
+}
+.form4 input[type="button"]{
+ height: 50px;
+}
+.form4 ul{
+  margin-top: 20px;
+  display: flex;
+}
+.form4 ul li{
+  display: flex;
+  margin: 4px;
+}
+.form4 p{
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+.bitch{
+  position: relative;
+  margin-top: -150px;
+  left: 27%;
+  
+}
