@@ -66,7 +66,6 @@ body {
   text-align: center;
 }
 h3 span a {
-
   color: #1877f2;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -75,8 +74,9 @@ h3 span a {
   align-items: center;
   justify-content: center;
   display: flex;
+  text-decoration: none ;
 }
-h3 span a :hover {
+h3 span a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -180,6 +180,7 @@ strong:hover {
   background-color: rgb(252, 252, 253, 0.7);
 }
 
+
 /* Modal Content/Box */
 .modal-content {
   background-color: hsl(0, 0%, 100%);
@@ -192,6 +193,16 @@ strong:hover {
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
+.modal2 {
+  margin-top: -100px;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
 
 /* The Close Button */
 .close {
@@ -474,7 +485,6 @@ nav ul li input[type="button"] {
 }
 
 #annuler {
-  
   width: 90px;
   height: 38px;
   background: hsl(223,15%,91%);
@@ -523,9 +533,20 @@ nav ul li input[type="button"] {
   padding-left: 20px;
   margin-left: 10px;
   outline: none;
+  font-family:Helvetica, Arial, sans-serif ;
+  font-size:17px ;
+  font-weight:400 ;
+  line-height: 16px;
+  color: rgb(144,148,156);
 }
 .form4 input[type="button"]{
  height: 50px;
+ font-family: Helvetica, Arial, sans-serif;;
+ font-size: 20px;
+ line-height:48px ;
+ font-weight: 700;
+ color: #ffff;
+ background: hsl(214,89%,52%);
 }
 .form4 ul{
   margin-top: 20px;
@@ -534,14 +555,96 @@ nav ul li input[type="button"] {
 .form4 ul li{
   display: flex;
   margin: 4px;
+  color: hsl(214,89%,52%);
+  font-family: Helvetica, Arial, sans-serif;;
+  font-size: 14px;
+  line-height:19px ;
+  font-weight: 500;
+
+}
+.form4 ul li a{
+ color: hsl(214,89%,52%) ;
+ text-decoration: none;
+  
+}
+.form4 ul li  :hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 .form4 p{
   text-align: center;
   margin: 15px 0 15px 0;
+  font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif ;
+  font-size: 18px;
+  font-weight:400 ;
+  line-height:22px ;
 }
 .bitch{
   position: relative;
   margin-top: -150px;
-  left: 27%;
+  left: 27%; 
+}
+
+#html4{
+  height: 515px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x:hidden ;
+}
+
+#img4{
+  margin-top: 10px;
+  margin-left: 50%;
+ transform:  translate(-50%,0) ;
+}
+.h15 h1{
+  margin-top: 10px;
+  text-align: center;
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.h15 h4{
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #606770;
+}
+#inp input{
+ background: #ffff;
+}
+
+.modal-content li{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    
+}
+.modal-content li a {
+  color: #1877f2;
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
   
+}
+.modal-content {
+  background-color: hsl(0, 0%, 100%);
+  margin: 90px auto;
+  border: none;
+  width: 438px;
+  height: 600px;
+  padding: 15px;
+  padding-top: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
